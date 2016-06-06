@@ -6,7 +6,7 @@ require('matchdep')
         global[module.replace(/^gulp-/, '')] = require(module);
     });
 
-// To start server
+// To start server on port 9001
 gulp.task('server', function () {
     connect.server({
         root: 'app',
