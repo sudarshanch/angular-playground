@@ -8,7 +8,7 @@
   "description": "Angular JS Playground for components.",
   "main": "index.html",
   "keywords": [
-    "dmp"
+    "playground"
   ],
   "license": "MIT",
   "ignore": [
