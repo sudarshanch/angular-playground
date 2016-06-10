@@ -3,8 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Angular Playground</title>
+    <link href="vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
-<body>
-    Angular Playground
+<body ng-app="playground">
+    <div>
+        <ng-include src="'views/navBar.html'"></ng-include>
+        <div class="main-padding">
+            <div ng-view></div>
+        </div>
+    </div>
+
+    <script defer src="vendor/jquery/dist/jquery.min.js"></script>
+    <script defer src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script defer src="vendor/angular/angular.min.js"></script>
+    <script defer src="vendor/angular-route/angular-route.js"></script>
+    <script defer src="scripts/app.js"></script>
+    <script defer src="scripts/routes.js"></script>
+
+    <script defer src="scripts/components/name-component.js"></script>
 </body>
 </html>
