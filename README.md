@@ -9,4 +9,4 @@
     gulp update
 
 ## Starting server
-    gulp / gulp server
+    gulp OR gulp server
